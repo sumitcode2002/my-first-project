@@ -30,6 +30,9 @@ var swiper = new Swiper(".home-slider", {
      nextEl: ".swiper-button-next",
      prevEl: ".swiper-button-prev",
    },
+   autoplay: {
+      delay: 5000,
+   }
 });
 
 var swiper = new Swiper(".gallery-slider", {
@@ -48,6 +51,9 @@ var swiper = new Swiper(".gallery-slider", {
    pagination: {
       el: ".swiper-pagination",
     },
+   autoplay: {
+      delay: 5000,
+   },
 });
 
 var swiper = new Swiper(".reviews-slider", {
@@ -67,3 +73,6 @@ var swiper = new Swiper(".reviews-slider", {
       },
    },
 });
+
+
+
